@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hammer Collective</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/logo.png" type="images/x-lcon">
+    <link rel="shortcut icon" href="img/logo_mini.png" type="image/png">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#menu").on("click", "a", function(event) {
+                event.preventDefault();
+                var id = $(this).attr('href'),
+                    top = $(id).offset().top;
+                $('body,html').animate({
+                    scrollTop: top
+                }, 1500);
+            });
+        });
+    </script>
+</head>
+
+<body translate="no">
+    <div class="top_q">
+        <div class="top">
+            <div class="logo">
+                <img src="img/logo.png" alt="">
+                <div class="h1_text">
+                    <span>Hammer</span>
+                    <span>Collective</span>
+                </div>
+            </div>
+            <div class="nav" id="menu">
+                <ul>
+                    <li><a href="#">Map devs</a></li>
+                    <li><a href="#ayf">Useful programs</a></li>
+                    <li><a href="#">Form</a></li>
+                </ul>
+                <div class="ds">
+                    <p><a href="https://discord.gg/GNMkk5ZCTT">Discord Community</a></p>
+                    <img src="img/discord-brands.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="info_text_q">
+        <div class="info_text">
+            <div class="info_p">
+                <p>
+                    Привет всем, мы Hummer Collective Мы два энтузиаста, которые помогают людям Знакомство с редактором Hammer И движком Source И Различные программы, это может быть 3DS Max.VMT Editor.VTFE dit И так далее. Мы научим вас создавать свои собственные текстуры
+                    Помогаем создавать карты через 3DS Max и импортировать их в Hammer Editor, Кроме того, мы набираем команду для совместной работы над проектами, создания карт и обучения людей. Если вы хотите учиться или работать с нами, на нашем сайте
+                    есть вкладка Form, где вы можете подать заявку на обучение или присоединиться к команде
+                </p>
+            </div>
+            <div class="info_img">
+                <img src="img/logo.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="background">
+        <div class="babui">
+
+            <img src="img/source.png" alt="">
+
+        </div>
+    </div>
+
+    <div class="bp" id="ayf">
+        <div class="h1_soft">
+            <h1>Useful programs</h1>
+        </div>
+        <div class="bp_win">
+            <a href="https://ficool2.github.io/HammerPlusPlus-Website/" target="_blank">
+                <div class="col">
+                    <img src="img/Hammer++.png" alt="Прога для создания карт">
+                    <p>Hammer++</p>
+                </div>
+            </a>
+            <a href="https://gira-x.github.io/VMT-Editor/" target="_blank">
+                <div class="col">
+                    <img src="img/VMT_Editor.jpg" alt="">
+                    <p>VMT_Editor</p>
+                </div>
+            </a>
+            <a href="https://www.pixplant.com" target="_blank">
+                <div class="col">
+                    <img src="img/PixPlant.jpg" alt="">
+                    <p>PixPlant</p>
+                </div>
+            </a>
+            <a href="https://nemstools.github.io/pages/VTFLib-Download.html" target="_blank">
+                <div class="col">
+                    <img src="img/VTFEdit.jpg" alt="">
+                    <p>VTFEdit</p>
+                </div>
+            </a>
+            <a href="https://steamcommunity.com/groups/CrowbarTool" target="_blank">
+                <div class="col">
+                    <img src="img/Сrowbar.jpg" alt="">
+                    <p>Crowbar</p>
+                </div>
+            </a>
+            <a href="hmm/ygy.html" target="_blank">
+                <div class="col">
+                    <img src="img/3ds_Max.jpg" alt="">
+                    <p>3ds Max</p>
+                </div>
+            </a>
+            <a href="https://www.audacityteam.org" target="_blank">
+                <div class="col">
+                    <img src="img/Audacity.png" alt="">
+                    <p>Audacity</p>
+                </div>
+            </a>
+            <a href="https://gamebanana.com/tools/26">
+                <div class="col">
+                    <img src="img/GCFScape.png" alt="">
+                    <p>GCFScape</p>
+                </div>
+            </a>
+            <a href="https://modding-assets.net/items/source/tools/modding/xblah-modding-tool" target="_blank">
+                <div class="col">
+                    <img src="img/XBLAH's.png" alt="">
+                    <p>XBLAH's</p>
+                </div>
+            </a>
+            <a href="#">
+                <div class="col">
+                    <img src="img/BIK.jpg" alt="">
+                    <p>BIK</p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
